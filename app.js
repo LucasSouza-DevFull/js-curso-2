@@ -10,7 +10,7 @@ function exibirTextoNaTela (tag, texto){
 }
 
 exibirTextoNaTela('h1', 'Descubra o numero Secreto');
-exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10')
+exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10');
 
 function verificarChute(){
         console.log('O botão foi clicado!')
