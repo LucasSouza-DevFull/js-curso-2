@@ -9,9 +9,13 @@ exibirTextoNaTela('h1', 'Descubra o numero Secreto');
 exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10');
 
 function verificarChute(){
-        console.log('O botão foi clicado!');
+        let chute = document.querySelector('input').value;
+        
+        if (chute == numeroSecreto){
+                exibirTextoNaTela('h1', 'Acertou!')
+        }
 } 
 
 function gerarNumeroAleatorio() {
-        parseInt(Math.random() * 10 + 1);
+        return parseInt(Math.random() * 10 + 1);
 }
