@@ -42,4 +42,6 @@ function reiniciarJogo() {
         numeroSecreto = gerarNumeroAleatorio();
         limparCampo();
         tentativas = 1;
+        exibirTextoNaTela('h1', 'Descubra o numero Secreto');
+        exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10');
 }
