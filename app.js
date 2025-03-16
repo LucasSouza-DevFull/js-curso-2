@@ -38,6 +38,8 @@ function gerarNumeroAleatorio() {
         let numeroEscolhido = parseInt(Math.random() * 10 + 1);
         if (listaDeNumerosSorteados.includes(numeroEscolhido)){
                 return gerarNumeroAleatorio();
+        } else {
+                return numeroEscolhido;
         }
 }
 
