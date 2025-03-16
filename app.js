@@ -39,6 +39,7 @@ function gerarNumeroAleatorio() {
         if (listaDeNumerosSorteados.includes(numeroEscolhido)){
                 return gerarNumeroAleatorio();
         } else {
+                listaDeNumerosSorteados.push(numeroEscolhido);
                 return numeroEscolhido;
         }
 }
