@@ -36,6 +36,12 @@ function verificarChute(){
 
 function gerarNumeroAleatorio() {
         let numeroEscolhido = parseInt(Math.random() * 10 + 1);
+        let quantidadeElementosNaLista = listaDeNumerosSorteados.length;
+
+        if(quantidadeElementosNaLista == 10){
+                listaDeNumerosSorteados = []
+        }
+
         if (listaDeNumerosSorteados.includes(numeroEscolhido)){
                 return gerarNumeroAleatorio();
         } else {
