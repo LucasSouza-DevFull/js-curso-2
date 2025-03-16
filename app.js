@@ -40,7 +40,7 @@ function gerarNumeroAleatorio() {
         let quantidadeElementosNaLista = listaDeNumerosSorteados.length;
 
         if(quantidadeElementosNaLista == numeroLimite){
-                listaDeNumerosSorteados = []
+                listaDeNumerosSorteados = [];
         }
 
         if (listaDeNumerosSorteados.includes(numeroEscolhido)){
