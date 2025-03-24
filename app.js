@@ -10,7 +10,7 @@ function exibirTextoNaTela (tag, texto){
 
 function exibirMensagemInicial() {
         exibirTextoNaTela('h1', 'Descubra o número Secreto TESTE EFETUADO');
-        exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+        exibirTextoNaTela('p', 'Escolha um número entre 1 e 10 teste 2');
 }
 
 exibirMensagemInicial();
